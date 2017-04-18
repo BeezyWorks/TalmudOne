@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/dafRow"
+    android:animateLayoutChanges="true"
+    android:minHeight="48dp">
+
+    <TextView
+        android:id="@+id/dafLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:duplicateParentState="true"
+        android:paddingRight="@dimen/padding_left_and_right"
+        android:text="דף ב." />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:duplicateParentState="true"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:orientation="horizontal"
+        android:paddingLeft="@dimen/padding_left_and_right">
+
+        <ImageView
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:paddingRight="@dimen/small_padding_top"
+            android:id="@+id/bookmarkIndicator"
+            android:src="@drawable/ic_bookmark_outline"
+            android:tint="@android:color/darker_gray" />
+
+        <ImageView
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:paddingLeft="@dimen/small_padding_top"
+            android:id="@+id/noteIndicator"
+            android:src="@drawable/ic_pencil"
+            android:tint="@android:color/darker_gray" />
+    </LinearLayout>
+
+</RelativeLayout>

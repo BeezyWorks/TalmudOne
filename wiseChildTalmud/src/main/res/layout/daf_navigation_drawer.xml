@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="right"
+    android:id="@+id/dafDrawerLayout">
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:dividerHeight="0dp"
+        android:divider="@android:color/transparent"
+        android:choiceMode="singleChoice"
+        android:id="@+id/dafListView"
+        android:layout_alignParentTop="true"></ListView>
+
+    <LinearLayout
+        android:id="@+id/dafBottomContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:elevation="4dp"
+        android:orientation="vertical"></LinearLayout>
+
+</RelativeLayout>

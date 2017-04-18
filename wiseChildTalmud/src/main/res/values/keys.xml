@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="profileNameKey">profileName</string>
+    <string name="profileEmailKey">profileEmail</string>
+    <string name="profileImageURLKey">profileImageUrl</string>
+
+    <string name="saveedTractateIndexKey">savedTractatedIndex</string>
+    <string name="textSizeKey">textSize</string>
+
+    <string name="portraitLockKey">portraitLock</string>
+    <string name="screenOnKey">screenOn</string>
+    <string name="fullscreenKey">fullscreen</string>
+
+
+    <string name="scrollKey">scroll</string>
+    <string name="savedCellNumberKey">savedCellNumber</string>
+
+    <string name="nagEnabledKey">nagEnabled</string>
+    <string name="nagHourKey">nagHour</string>
+    <string name="nagMinuteKey">nagMinute</string>
+
+    <string name="typefaceKey">typefaceKey</string>
+    <array name="typefaceNames">
+        <item>TaameyFrankCLM.ttf</item>
+        <item>SILEzra.ttf</item>
+        <item>DavidCLM-Medium.ttf</item>
+        <item>HadasimCLM-Regular.ttf</item>
+        <item>Mekorot-Vilna.ttf</item>
+    </array>
+
+    <string name="englishTypefaceKey">englishTypeface</string>
+    <array name="englishTypefaceNames">
+        <item>Lato.ttf</item>
+        <item>Crimson.ttf</item>
+        <item>OpenSans.ttf</item>
+    </array>
+
+    <string name="bookmarkKey">bookarmk</string>
+</resources>

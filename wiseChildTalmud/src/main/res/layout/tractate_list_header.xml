@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/headerView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="top"
+    android:elevation="4dp"
+    android:fitsSystemWindows="true"
+    android:minHeight="@dimen/headerViewHeight">
+
+    <ImageView
+        android:id="@+id/headerViewImage"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:minHeight="@dimen/headerViewHeight"
+        android:scaleType="centerCrop"
+        android:src="@drawable/notificationbackground"
+        android:tint="@color/primary"
+        android:tintMode="multiply" />
+
+
+    <ImageView
+        android:id="@+id/profilePicture"
+        android:layout_width="@dimen/profileImageDiameter"
+        android:layout_height="@dimen/profileImageDiameter"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="@dimen/padding_left_and_right"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:orientation="vertical"
+        android:paddingLeft="@dimen/padding_left_and_right"
+        android:layout_marginBottom="8dp">
+
+
+        <TextView
+            android:id="@+id/profileName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ploni Almoni"
+            android:fontFamily="sans-serif-medium"
+            android:textColor="@color/abc_primary_text_material_dark"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/profileEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ploni.almoni@gmail.com"
+            android:textColor="@color/abc_primary_text_material_dark"
+            android:textSize="14sp" />
+    </LinearLayout>
+</RelativeLayout>

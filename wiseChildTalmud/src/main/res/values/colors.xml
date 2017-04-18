@@ -1,0 +1,22 @@
+<resources>
+
+    <color name="black_overlay">#66000000</color>
+    <color name="blue">#5D8AA8</color>
+    <color name="sepia">#FBF0D9</color>
+    <color name="pink">#ffc9ca</color>
+
+    <color name="primary">#4CAF50</color>
+    <color name="primaryDark">#33691E</color>
+    <color name="accent">#FFC107</color>
+    <!--<color name="primary">#3f51b5</color>-->
+    <!--<color name="primaryDark">#303F9F</color>-->
+    <color name="primaryBright">#4CAF50</color>
+    <!--<color name="accent">#ffab40</color>-->
+    <color name="accentBright">#FFE57F</color>
+
+    <color name="dividerColorLight">#1a000000</color>
+    <color name="dividerColorDark">#1affffff</color>
+    <color name="sock_monkey">#595A59</color>
+
+
+</resources>

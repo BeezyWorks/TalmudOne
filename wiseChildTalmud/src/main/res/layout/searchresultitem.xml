@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="8dp"
+
+    android:paddingTop="8dp">
+
+    <ImageView
+        android:id="@+id/divider"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:src="@color/dividerColorLight" />
+
+    <TextView
+        android:id="@+id/searchResultTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="@dimen/padding_left_and_right"
+        android:paddingRight="@dimen/padding_left_and_right"
+        android:paddingTop="8dp"
+        android:text="ברכות ב:"
+        android:textColor="@color/primary"
+        android:textSize="@dimen/abc_text_size_headline_material"
+        android:gravity="right"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/searchResultBlurb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="@dimen/padding_left_and_right"
+        android:paddingRight="@dimen/padding_left_and_right"
+        android:paddingTop="8dp"
+        android:text="four score and seven years ago our forefathers "
+        android:textSize="@dimen/abc_text_size_subhead_material" />
+
+</LinearLayout>

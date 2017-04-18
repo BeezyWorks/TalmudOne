@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.v7.widget.Toolbar
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/toolbar"
+    android:minHeight="@dimen/abc_action_bar_default_height_material"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+    <ImageView
+        android:id="@+id/rightDrawerToggle"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_gravity="right"
+        android:layout_marginRight="@dimen/padding_left_and_right"
+        android:gravity="center_vertical"
+        android:rotation="180"
+        android:src="@drawable/abc_ic_go_search_api_mtrl_alpha" />
+    <SearchView
+        android:id="@+id/toolbarSearchView"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="right"
+        android:layout_marginRight="16dp"
+        android:visibility="gone"></SearchView>
+
+
+
+</android.support.v7.widget.Toolbar>

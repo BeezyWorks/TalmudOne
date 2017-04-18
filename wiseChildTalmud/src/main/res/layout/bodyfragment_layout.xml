@@ -1,0 +1,34 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!--<LinearLayout-->
+        <!--android:id="@+id/tabsRow"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_gravity="center|bottom"-->
+        <!--android:background="@color/primary"-->
+        <!--android:elevation="@dimen/action_bar_elevation"-->
+        <!--android:gravity="center"-->
+        <!--android:orientation="horizontal"></LinearLayout>-->
+
+    <android.support.v4.widget.DrawerLayout
+        android:id="@+id/body_fragment_drawer_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent">
+
+
+        <FrameLayout
+            android:id="@+id/body_content_frame"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+        </FrameLayout>
+
+        <include layout="@layout/daf_navigation_drawer" />
+
+    </android.support.v4.widget.DrawerLayout>
+</LinearLayout>

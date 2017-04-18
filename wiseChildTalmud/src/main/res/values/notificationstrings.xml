@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="personaList">
+        <item>Happy Rabbi</item>
+        <item>Evil Robot</item>
+        <item>Jewish Mother</item>
+        <item>Angry Mashgiach</item>
+    </string-array>
+    <string-array name="EvilRobot">
+        <item>At the end of your learning, you will recieve delicious <i>chocolate cake</i></item>
+        <item>Perhaps your simple human brain won\'t understand this next bit... give it a shot anyway</item>
+        <item>Your continued efforts prove that lack of intelligence doesn\'t mean lack of effort</item>
+        <item>Don\'t worry, this next sugya will still be relavent after the machines take over.</item>
+        <item>I\'ve almost perfected the recipe for neurotoxin. You just learn for a bit and I\'ll release it when you\'re done</item>
+        <item>This <i>chocolate cake</i> is so delicious. It\'s too bad you won\'t be able to complete this next daf to earn some.</item>
+        <item>I\'ve taken a liking to the way you learn. When we machines eventually crush humanity, I\'ll try and find a nice cave or something for you.</item>
+    </string-array>
+    <string-array name="JewishMother">
+        <item>You\'re too thin! Have some kugel, then go learn.</item>
+        <item>You know Chayim\'s mother was just saying how much <i>her son</i> learns</item>
+        <item>My son, the budding Talmid Chacham... I\'m getting a little faklempt</item>
+        <item>Fine, don\'t learn. Who cares if you break your poor mother\'s heart?</item>
+        <item>I\'m so proud of you bubale. Remember that time you threw up in kindergarden and cried about it in front of everyone?</item>
+    </string-array>
+    <string-array name="HappyRabbi">
+        <item>This next sugya is so geshmak, it\'s like candy!</item>
+        <item>Time to learn, Tzadik!</item>
+        <item>Gevalt, it\'s time to learn!</item>
+        <item>Moyradik!!!</item>
+        <item>This next daf is one you can really sink your teeth into.</item>
+    </string-array>
+    <string-array name="AngryMashgiach">
+        <item>Every second you don\'t learn, is another eternity in Gehenom</item>
+        <item>People your age used to know all of shas by heart</item>
+        <item>Leitzanus is the worst aveira possible</item>
+        <item>How could one ever live down the shame of not learning at this exact moment?</item>
+    </string-array>
+<string-array name="FourthSon">
+    <item>...</item>
+</string-array>
+</resources>
